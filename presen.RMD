@@ -6,6 +6,7 @@ institute: "Universidade de São Paulo"
 date: "27.03.2021"
 output:
   xaringan::moon_reader:
+    seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -14,17 +15,22 @@ output:
     includes:
       after_body: insert-logo.html
 ---
-```{r, pkg-load, echo= F}
-library(tidyverse)
-library(e1071)
-```
+class: center, hide-logo
+
+![](art_predict.png)
+
+## Apresentação do Projeto
+#### Universidade de São Paulo
+### Março 2021
+
+---
 
 # Algumas cenas de hoje...
 
 - Apresentação do projeto
-  - Como o PREDICT-ICMC surgiu?
-  - O que fazemos? 
-  - Qual a utilidade do que fazemos?
+  - O que é o **PREDICT-ICMC**?
+  - Como o **PREDICT-ICMC** surgiu?
+  - O que fazemos?
 
 - Introdução ao tópico
   - O que é modelagem?
@@ -41,28 +47,75 @@ library(e1071)
 
 
 ---
+# O que é o PREDICT?
+
+O PREDICT-ICMC é um grupo de extensão que visa a **análise de dados** da pandemia de COVID-19 por meio de:
+--
+
+- técnicas de visualização de dados, e
+
+- modelos preditivos
+
+
+para o dimensionamento e prevenção dos impactos do COVID-19 e outras síndromes respiratórias agudas graves, utilizando estatística e ciência de dados.
+
+---
 ## Como o projeto surgiu?
+
+O projeto teve suas atividades iniciadas em Maio de 2020 a partir de uma iniciativa da Profa Cibele e dos alunos do curso de Estatística e Ciência de Dados
 
 
 ---
 
 ## O que fazemos? 
 
-
----
-
-## Qual a utilidade do que fazemos?
-
+Nossa proposta envolve a predição do número de casos, óbitos e demanda de internações hospitalares decorrentes do COVID-19 de acordo com diferentes intervenções:
+  - medidas de distanciamento social,
+  - isolamento voluntário,
+  - isolamento de sintomáticos,
+  - uso de equipamentos de proteção individual (EPIs),
+  - monitoramento de contatos próximos ou domiciliares,
+  - triagem em serviços de saúde, entre outras. 
 
 ---
 # Modelagem
+## O que é modelagem matemática?
 
-```{r warning= F}
-plot(sigmoid(seq(from = 0, to = 1, by= 0.1)))
 
-plot(sigmoid(seq(from = -10, to = 10, by= 0.1)))
+anotacoes
+
+como o grupo comecou
+o que estamos pensando em fazer
+
+abrir a pagina
+
+
+---
+
+```{r, pkg-load, echo= FALSE, warning=FALSE}
+library(tidyverse)
+library(e1071)
 ```
 
+```{r echo= F, warning=FALSE, message=FALSE}
+ggplot(mapping = aes(x = seq(from = -1, to = 1, by= 0.1), y = sigmoid(seq(from = -1, to = 1, by= 0.1)))) + geom_point() + xlab("x") + ylab(expr(f(x)))
+
+```
+---
+```{r echo= F, message=F}
+ggplot(mapping = aes(
+  x = seq(from = -1, to = 1, by= 0.1), 
+  y = sigmoid(seq(from = -1, to = 1, by= 0.1)))) + 
+  geom_point() +
+  stat_smooth(method = "lm") +
+  xlab("x") +
+  ylab(expr(f(x)))
+
+```
+---
+```{r echo= F}
+ggplot(mapping = aes(x = seq(from = -10, to = 10, by= 0.1), y = sigmoid(seq(from = -10, to = 10, by= 0.1)))) + geom_point() + xlab("x") + ylab(expr(f(x)))
+```
 
 ---
 ````{css, echo = F}
