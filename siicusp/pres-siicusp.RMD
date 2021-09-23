@@ -1,10 +1,6 @@
 ---
 title: "PREDICT-ICMC"
 subtitle: "Visualização dos impactos sociais da COVID-19"
-author: 
-  - Flaviane Louzeiro da Silva
-  - Francisco Rosa Dias de Miranda
-  - Cibele Maria Russo Novelli
 university: "Universidade de São Paulo"
 institute: "Instituto de Ciências Matemáticas e Computação"
 date: "20.09.2021"
