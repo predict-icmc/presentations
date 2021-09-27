@@ -13,8 +13,6 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-    includes:
-      after_body: insert-logo.html
 ---
 class: center, hide-logo
 ```{r setup, include=FALSE}
@@ -152,23 +150,8 @@ https://biblioteca.ibge.gov.br. Acesso em  06/06/2021
 *SEADE*. Fundação Sistema Educacional de Análise de Dados. 2021. Disponível em https://www.seade.gov.br/. Acesso em 16/05/2021. 
 
 
-````{css, echo = F}
-.bg_karl {
-  position: relative;
-  z-index: 1;
-}
-
-.bg_karl::before {    
-      content: "";
-      background-image: url('https://github.com/predict-icmc/covid19/raw/master/shiny/site_final/covid-19/www/logo-predict.jpg');
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.2;
-      z-index: -91;
-}
-````
-
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://github.com/predict-icmc/covid19/raw/master/shiny/site_final/covid-19/www/logo-predict.jpg"
+)
+```
