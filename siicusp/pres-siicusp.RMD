@@ -81,20 +81,20 @@ Foco na interação com o usuário, que é capaz de controlar parâmetros como p
 
 ## Impacto na pirâmide etária
 
-![](img/hmSP.png)
-
-Apresentamos as pirâmides etárias, com classes agrupadas em intervalos fixos de 5 anos, dos registros de casos e óbitos, no período de 04 de fevereiro de 2020 a 16 de maio de 2021 
-
----
-
-![](img/freqSP.png)
+![](img/freqSP_new.png)
 
 - É possível concluir que a maioria dos casos concentra-se no intervalo de 20 a 50 anos, onde a faixa com mais registros é de 35 a 40 anos.
 
 - Esse resultado era esperado, pois cerca de 59,6% dos trabalhadores brasileiros possuem de 25 a 59 anos (PNADC, 2020). 
 ---
 
-![](img/compSP.png)
+![](img/hmSP_new.png)
+
+Apresentamos as pirâmides etárias, com classes agrupadas em intervalos fixos de 5 anos, dos registros de casos e óbitos, no período de 04 de fevereiro de 2020 a 16 de maio de 2021 
+
+---
+
+![](img/compSP_new.png)
 
 
 - No entanto, com base na pirâmide etária dos registros de óbitos, observa-se que a maioria dos registros concentra-se no intervalo de 60 a 80 anos, onde a faixa etária de 65 a 70 anos apresentaram maior ocorrência.
@@ -104,7 +104,7 @@ Apresentamos as pirâmides etárias, com classes agrupadas em intervalos fixos d
 
  - A utilização de técnicas de visualização de dados mostrou-se conveniente nos estudos de impacto da Covid-19.
 
- - A  visualização dos dados em estilo de mapa, exibindo os resultados dentro de escalas de cor adequadas  permitiu, de modo didático, o acompanhamento da evolução da Covid-19 pelo país.
+ - A visualização dos dados em estilo de mapa, exibindo os resultados dentro de escalas de cor adequadas  permitiu, de modo didático, o acompanhamento da evolução da Covid-19 pelo país.
  
  - Pôde-se observar que os casos de Covid-19, tanto nos homens quanto nas mulheres, concentrou-se na faixa de 35 a 39 anos.
 
