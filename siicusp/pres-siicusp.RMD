@@ -77,9 +77,10 @@ Foco na interação com o usuário, que é capaz de controlar parâmetros como p
 
 ---
 
-# Resultados
-
 ## Impacto na pirâmide etária
+
+--
+class: hide-logo
 
 ![](img/freqSP_new.png)
 
@@ -87,12 +88,14 @@ Foco na interação com o usuário, que é capaz de controlar parâmetros como p
 
 - Esse resultado era esperado, pois cerca de 59,6% dos trabalhadores brasileiros possuem de 25 a 59 anos (PNADC, 2020). 
 ---
+class: hide-logo
 
 ![](img/hmSP_new.png)
 
 Apresentamos as pirâmides etárias, com classes agrupadas em intervalos fixos de 5 anos, dos registros de casos e óbitos, no período de 04 de fevereiro de 2020 a 16 de maio de 2021 
 
 ---
+class: hide-logo
 
 ![](img/compSP_new.png)
 
