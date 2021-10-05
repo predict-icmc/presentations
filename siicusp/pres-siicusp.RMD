@@ -90,6 +90,8 @@ class: hide-logo
 ---
 class: hide-logo
 
+## Impacto na pirâmide etária
+
 ![](img/hmSP_new.png)
 
 Apresentamos as pirâmides etárias, com classes agrupadas em intervalos fixos de 5 anos, dos registros de casos e óbitos, no período de 04 de fevereiro de 2020 a 16 de maio de 2021 
